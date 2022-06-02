@@ -14,10 +14,10 @@ Este mini projeto é para a criação e uso do Spring para entender melhor como 
 
 <hr />
 
-`Model`: Modelo de cada objeto instânciado. ex: `Course` model
-`Service`: Uso de serviços disponibilizados pelo projeto. ex: `courseService.list()` para listar os cursos.
-`Repository`: "Armazenamento de dados" do projeto. ex: `courseRepository.findall()` que faz uma lista de cursos, cria um curso(`springboot`) baseado inteiramente na `Model` e adiciona a lista criada. 
-`Config`: Configuração do `ApplicationContext` e onde são armazenados nossos `beans`
+* `Model`: Modelo de cada objeto instânciado. ex: `Course` model
+* `Service`: Uso de serviços disponibilizados pelo projeto. ex: `courseService.list()` para listar os cursos.
+* `Repository`: "Armazenamento de dados" do projeto. ex: `courseRepository.findall()` que faz uma lista de cursos, cria um curso(`springboot`) baseado inteiramente na `Model` e adiciona a lista criada. 
+* `Config`: Configuração do `ApplicationContext` e onde são armazenados nossos `beans`
 
 
 
